@@ -598,6 +598,7 @@ void driveL(int power_a, int power_b) {
   Serial.print("\t steer_2 = ");
   Serial.print(steer2);
   Serial.print("\n");
+  
   steer = steer2 - 498;
   Serial.print("\t steer = ");
   Serial.print(steer);
